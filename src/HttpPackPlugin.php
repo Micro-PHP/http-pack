@@ -29,6 +29,7 @@ readonly class HttpPackPlugin implements PluginDependedInterface
             HttpExceptionResponseDevPlugin::class,
             HttpBootPlugin::class,
             HttpRouterCodePlugin::class,
+            HttpMiddlewarePlugin::class,
         ];
     }
 }
