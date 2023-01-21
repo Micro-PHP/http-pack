@@ -18,6 +18,7 @@ use Micro\Plugin\Http\HttpCorePlugin;
 use Micro\Plugin\Http\HttpExceptionResponseDevPlugin;
 use Micro\Plugin\Http\HttpExceptionResponsePlugin;
 use Micro\Plugin\Http\HttpLoggerPlugin;
+use Micro\Plugin\Http\HttpMiddlewarePlugin;
 use Micro\Plugin\Http\HttpPackPlugin;
 use Micro\Plugin\Http\HttpRouterCodePlugin;
 use PHPUnit\Framework\TestCase;
@@ -37,6 +38,7 @@ class HttpPackPluginTest extends TestCase
             HttpExceptionResponseDevPlugin::class,
             HttpBootPlugin::class,
             HttpRouterCodePlugin::class,
+            HttpMiddlewarePlugin::class,
         ], $pluginsDepended);
     }
 }

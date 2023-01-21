@@ -10,12 +10,13 @@
         }
     ],
     "require": {
-        "micro/kernel-boot-plugin-depended": "^1",
-        "micro/plugin-http-boot": "^1",
-        "micro/plugin-http-exceptions": "^1",
-        "micro/plugin-http-exceptions-dev": "^1",
-        "micro/plugin-http-logger": "^1.0",
-        "micro/plugin-http-router-code": "^1"
+        "micro/kernel-boot-plugin-depended": "^1.6",
+        "micro/plugin-http-boot": "^1.6",
+        "micro/plugin-http-exceptions": "^1.6",
+        "micro/plugin-http-exceptions-dev": "^1.6",
+        "micro/plugin-http-logger": "^1.6",
+        "micro/plugin-http-middleware": "^1.6",
+        "micro/plugin-http-router-code": "^1.6"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.29",
