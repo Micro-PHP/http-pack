@@ -11,9 +11,16 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http;
+namespace Micro\Plugin\HttpPack;
 
-use Micro\Framework\Kernel\Plugin\PluginDependedInterface;
+use Micro\Framework\BootPluginDependent\Plugin\PluginDependedInterface;
+use Micro\Plugin\HttpBoot\HttpBootPlugin;
+use Micro\Plugin\HttpCore\HttpCorePlugin;
+use Micro\Plugin\HttpExceptions\HttpExceptionResponsePlugin;
+use Micro\Plugin\HttpExceptionsDev\HttpExceptionResponseDevPlugin;
+use Micro\Plugin\HttpLogger\HttpLoggerPlugin;
+use Micro\Plugin\HttpMiddleware\HttpMiddlewarePlugin;
+use Micro\Plugin\HttpRouterCode\HttpRouterCodePlugin;
 
 /**
  * @author Stanislau Komar <head.trackingsoft@gmail.com>

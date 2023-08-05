@@ -11,16 +11,16 @@ declare(strict_types=1);
  *  file that was distributed with this source code.
  */
 
-namespace Micro\Plugin\Http\Test\Unit;
+namespace Micro\Plugin\HttpPack\Tests\Unit;
 
-use Micro\Plugin\Http\HttpBootPlugin;
 use Micro\Plugin\Http\HttpCorePlugin;
-use Micro\Plugin\Http\HttpExceptionResponseDevPlugin;
-use Micro\Plugin\Http\HttpExceptionResponsePlugin;
-use Micro\Plugin\Http\HttpLoggerPlugin;
-use Micro\Plugin\Http\HttpMiddlewarePlugin;
-use Micro\Plugin\Http\HttpPackPlugin;
-use Micro\Plugin\Http\HttpRouterCodePlugin;
+use Micro\Plugin\HttpBoot\HttpBootPlugin;
+use Micro\Plugin\HttpExceptions\HttpExceptionResponsePlugin;
+use Micro\Plugin\HttpExceptionsDev\HttpExceptionResponseDevPlugin;
+use Micro\Plugin\HttpLogger\HttpLoggerPlugin;
+use Micro\Plugin\HttpMiddleware\HttpMiddlewarePlugin;
+use Micro\Plugin\HttpPack\HttpPackPlugin;
+use Micro\Plugin\HttpRouterCode\HttpRouterCodePlugin;
 use PHPUnit\Framework\TestCase;
 
 class HttpPackPluginTest extends TestCase
